@@ -5,6 +5,18 @@
     margin: 0;
     padding: 0;
 }
+
+button {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5px;
+}
     
 /* top section */
 
@@ -75,3 +87,5 @@
     height: 200px;
     width: 400px;  
   }
+
+  /* info section */ 
