@@ -155,3 +155,29 @@ button {
     font-size: 22px;
     font-weight: 600;
   }
+
+  /* action section */
+
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+
+  }
+  
+  .action .container {
+    color: #ffffff;
+    padding: 20px;
+    width: 1000px;
+    border-radius: 10px;
+    background: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+
+  .action button {
+    border: 2px solid #ffffff;
+  }
