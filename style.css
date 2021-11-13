@@ -130,3 +130,28 @@ button {
   }
 
   /* quote */
+
+  .quote {
+    background: #e5e7eb;
+    min-height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 22%;
+    padding-right: 22%;
+    gap: 10px;
+  }
+
+  .quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+  }
+
+  .quote .credit {
+    align-self:flex-end;
+    font-size: 22px;
+    font-weight: 600;
+  }
