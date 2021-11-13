@@ -67,7 +67,7 @@ button {
     padding-top: 10px;
   }
 
-  .text {  
+  .hero .text {  
     flex: 1 1 50%;
     text-align: left; 
     padding-bottom: 50px;  
@@ -89,3 +89,44 @@ button {
   }
 
   /* info section */ 
+
+
+  .infotitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    padding: 20px;
+  
+  }
+
+  .info { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+  }
+
+  .info1, .info2, .info3, .info4 {
+    width: 200px;
+    padding: 10px;
+   
+  }
+
+  .card {
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .info .text {
+    text-align: center;
+    width: 200px;
+    color: #1f2937;
+  }
+
+  /* quote */
